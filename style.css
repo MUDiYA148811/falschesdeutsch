@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+  background-color: #FFFF66;
+}
+
+.game {
+  width: 50%;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  /*центрирование*/
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /*настройка границ*/
+  border: 5px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+  /*Шрифты*/
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+.lifesnscore {
+  display: inline-block;
+  width: 20%;
+  /*background-color: blue;*/
+  margin: auto;
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.score-block {
+  margin-left: 5px;
+  /*background-color: red;*/
+  margin-right: 5px;
+}
+
+.lifes-block {
+  margin-left: 5px;
+  margin-right: 5px;
+  /*background-color: red;*/
+}
+
+.result {
+  width: 33%;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  display: flex;
+
+}
+
+#word {
+  margin: auto;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button {
+  width: 34%;
+  display: flex;
+}
+
+#buttonTrue:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px #66FF00;
+  background-color: black;
+  color: white;
+}
+
+#buttonTrue {
+  padding: 5px 15px;
+  box-sizing: content-box;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  transition: all .4s ease;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+#buttonFalse:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px crimson;
+  background-color: black;
+  color: white;
+}
+
+#buttonFalse {
+  padding: 5px 15px;
+  box-sizing: content-box;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  transition: all .4s ease;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+#buttonNext:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px #E5BE01;
+  background-color: black;
+  color: white;
+}
+
+#buttonNext {
+  padding: 5px 15px;
+  box-sizing: content-box;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  transition: all .4s ease;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+#buttonNew:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px #310062;
+  background-color: black;
+  color: white;
+}
+
+#buttonNew {
+  padding: 5px 15px;
+  box-sizing: content-box;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  transition: all .4s ease;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}

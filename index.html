@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel='stylesheet' href='style.css'>
+        <link rel="icon" type="image" href="icon.ico">
+        <title>Falschen Deutsch</title>
+    </head>
+    <body  onload="writeWord()">
+      <section class='game'>
+        <section class='lifesnscore'>
+          <div class='score-block'>
+            <p><strong>&#128515;Score:</strong> <i id="score">0</i></p>
+          </div>
+          <div class='lifes-block'>
+            <p><strong>&#10084;Leben:</strong> <i id="lifes">3</i></p>
+          </div>
+        </section>
+        <section class='result'>
+          <p id="word"></p>
+        </section>
+        <section class='button'>
+          <input type="button" id="buttonTrue" value="Echt" onclick="act(0)">
+          <input type="button" id="buttonFalse" value="Erfunden" onclick="act(1)">
+          <input type="button" id="buttonNext" value="Weiter" onclick="writeWord()">
+          <input type="button" id="buttonNew" value="Neues spiel" onclick="newGame()" hidden>
+        </section>
+      </section>
+      <script src="script.js"></script>
+    </body>
+</html>
